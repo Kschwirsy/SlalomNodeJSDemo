@@ -21,7 +21,7 @@ app.set('port', (process.env.PORT || 5000))
 /*GET Requests */
 app.get('/', function(request, response) {
   console.log("Received a GET request at:"+new Date());
-  response.send('Hello GET!')
+  response.send('Welcome to the NodeJS Demo!  Please choose a function to test out')
 })
 
 app.get('/process_post', function(req, resp){

@@ -7,7 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "fs": "*",
+    "multer": "*",
+    "busboy": "*",
+    "formidable": "*",
+    "path": "*"
   },
   "engines": {
     "node": "4.0.0"
