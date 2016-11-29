@@ -1,7 +1,7 @@
 {
-  "name": "node-js-sample",
+  "name": "slalom-node-js-demo",
   "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A sample Node.js app using Express 4 and other libraries",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,21 +11,22 @@
     "multer": "*",
     "busboy": "*",
     "formidable": "*",
-    "path": "*"
+    "path": "*",
+    "connect-busboy": "*"
   },
   "engines": {
     "node": "4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/Kschwirsy/SlalomNodeJSDemo.git"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
+  "author": "Karl Schwirz",
   "contributors": [
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
