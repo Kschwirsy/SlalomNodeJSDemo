@@ -1,3 +1,4 @@
+#Define the OS - Linux Argon
 FROM node:argon
 
 #Create app directory
@@ -9,7 +10,7 @@ COPY package.json /usr/src/app/
 RUN npm install
 
 #Bundle app source
-COPY ./usr/src/app
+COPY ./src/app
 
 EXPOSE 5000
 CMD ["npm", "start"]
