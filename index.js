@@ -1,8 +1,9 @@
+
+var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
 var fs = require("fs");
 
-var bodyParser = require('body-parser');
 var multer  = require('multer');
 var busboy = require('connect-busboy');
 var formidable = require('formidable');
@@ -20,8 +21,8 @@ app.set('port', (process.env.PORT || 5000))
 
 /*GET Requests */
 app.get('/', function(request, response) {
-  console.log("Received a GET request at:"+new Date());
-  response.send('Welcome to the NodeJS Demo!  Please choose a function to test out')
+  console.log("Received a homepage request at:"+new Date());
+  response.sendFile(__dirname + "/public/" + "index.htm")
 })
 
 app.get('/process_post', function(req, resp){

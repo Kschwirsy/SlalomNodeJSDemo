@@ -12,7 +12,8 @@
     "busboy": "*",
     "formidable": "*",
     "path": "*",
-    "connect-busboy": "*"
+    "connect-busboy": "*",
+    "body-parser": "*"
   },
   "engines": {
     "node": "4.0.0"
