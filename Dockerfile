@@ -11,5 +11,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+# Application will run on Port 5000 : localhost:5000
 EXPOSE 5000
+
 CMD [ "npm", "start" ]
